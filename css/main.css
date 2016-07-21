@@ -1,0 +1,68 @@
+/* Inserta tu CSS aqui */
+*{
+	padding: 0;
+	margin: 0;
+}
+/*pasto*/
+#principal{
+	margin: 20px;
+	padding: 20px;
+}
+.cancha{
+	background-color: #8CB27C;
+	width: 800px;
+	height: 400px;
+	border: 1px solid #FFF;
+}
+/*porteria*/
+.rectangulo{
+	width: 100px;
+	height: 180px;
+	position: absolute;
+	border: 1px solid #FFF;
+	display: inline-block;
+	top: 140px;
+}
+.izquierda{
+	border-left: 0;
+}
+.derecha{
+	left: 740px;
+	border-right: 0;
+}
+.circulo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	left: 350px;
+}
+/*imagen balon*/
+img{
+	position: absolute;
+}
+.izquierda img{
+	left: 88px;
+	top: 5px;
+}
+.derecha img{
+	right: 105px;
+	top: 152px;
+}
+.circulo img{
+	bottom: 240px;
+	left: 110px;
+}
+/*estilo para bola si no se tiene imagen*/
+/*.bola{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #fff;
+	background-color: #fff;  
+	border-radius: 50%;
+	right: 200px;
+	top: 150px;
+	position: absolute;
+}
+*/
